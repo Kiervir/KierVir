@@ -1,0 +1,747 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kier Paolo Viray — Shopify Developer & eCommerce Specialist</title>
+  <meta name="description" content="Kier Paolo Viray — Shopify Developer and eCommerce Specialist building custom storefronts, Liquid themes, WordPress sites and integrations that sell." />
+  <meta name="theme-color" content="#121215" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23121215'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' dominant-baseline='middle' font-family='Arial' font-weight='700' font-size='26' fill='%23ecebe4'%3EKV%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&family=Manrope:wght@300..700&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script>document.documentElement.classList.replace('no-js', 'js');</script>
+
+  <!--
+    IMAGES — portrait: assets/1x1.jpg · project screenshots: assets/web/*.jpg
+    (web-optimised copies of the PNGs in assets/). Re-export there when you update a screenshot.
+  -->
+</head>
+<body>
+
+  <!-- ============ PRELOADER ============ -->
+  <div class="preloader" aria-hidden="true">
+    <div class="preloader__inner">
+      <p class="preloader__name"><span>Kier Paolo Viray</span></p>
+      <p class="preloader__role">Shopify Developer — Portfolio ©2026</p>
+    </div>
+    <div class="preloader__bottom">
+      <div class="preloader__bar"><span></span></div>
+      <span class="preloader__count">000</span>
+    </div>
+  </div>
+
+  <!-- ============ CURSOR / FX ============ -->
+  <div class="cursor" aria-hidden="true"></div>
+  <div class="cursor-label" aria-hidden="true"><span>View</span></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+  <div class="toast" role="status" aria-live="polite"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav">
+    <a href="#top" class="nav__logo" data-magnetic="0.4" aria-label="Back to top">
+      KV<span class="nav__logo-dot">.</span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#about" class="roll"><span data-text="About">About</span></a>
+      <a href="#services" class="roll"><span data-text="Services">Services</span></a>
+      <a href="#work" class="roll"><span data-text="Work">Work</span></a>
+      <a href="#experience" class="roll"><span data-text="Experience">Experience</span></a>
+      <a href="#contact" class="roll"><span data-text="Contact">Contact</span></a>
+    </nav>
+    <a href="#contact" class="btn btn--primary btn--sm nav__cta" data-magnetic data-grow>
+      <span class="btn__fill"></span>
+      <span class="btn__label">Let's talk</span>
+      <span class="btn__icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg>
+      </span>
+    </a>
+    <button class="nav__burger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Mobile menu -->
+  <div class="menu" aria-hidden="true">
+    <nav class="menu__links" aria-label="Mobile">
+      <a href="#about"><small>01</small>About</a>
+      <a href="#services"><small>02</small>Services</a>
+      <a href="#work"><small>03</small>Work</a>
+      <a href="#experience"><small>04</small>Experience</a>
+      <a href="#contact"><small>05</small>Contact</a>
+    </nav>
+    <div class="menu__foot">
+      <a href="mailto:kier.paolotejada@gmail.com">kier.paolotejada@gmail.com</a>
+      <span>Pampanga, PH — GMT+8</span>
+    </div>
+  </div>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top" data-theme="dark">
+      <canvas class="hero__canvas" aria-hidden="true"></canvas>
+      <div class="hero__glow" aria-hidden="true"></div>
+
+      <div class="hero__top" data-hero-fade>
+        <p class="eyebrow"><span class="live-dot"></span> Available for new projects</p>
+        <p class="eyebrow eyebrow--right">Based in Pampanga, PH<br />Working worldwide</p>
+      </div>
+
+      <div class="hero__grid">
+        <!-- Left: copy -->
+        <div class="hero__copy">
+          <h1 class="hero__title" aria-label="Kier Paolo Viray" data-weight>
+            <span class="hero__row"><span class="line"><span class="split">Kier</span></span> <span class="line"><span class="split">Paolo</span></span></span>
+            <span class="hero__row"><span class="line"><span class="split">Viray</span></span></span>
+          </h1>
+          <p class="hero__role" data-hero-fade>(Shopify Developer &amp; eCommerce Specialist)</p>
+          <p class="hero__intro" data-hero-fade>
+            I build websites and Shopify stores that look sharp, load fast and <em>grow sales</em> — custom themes,
+            clean product data and integrations that keep stores running.
+          </p>
+          <div class="hero__ctas" data-hero-fade>
+            <a href="#work" class="btn btn--primary" data-magnetic>
+              <span class="btn__fill"></span>
+              <span class="btn__label">Featured works</span>
+              <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            </a>
+            <a href="#contact" class="btn btn--ghost" data-magnetic data-planner data-grow>
+              <span class="btn__fill"></span>
+              <span class="btn__label">Start a project</span>
+            </a>
+          </div>
+          <a href="#contact" class="hero__hint mono" data-hero-fade data-planner data-grow>Let's grow your Shopify store <span aria-hidden="true">↗</span></a>
+        </div>
+
+        <!-- Right: interactive sales dashboard (illustrative data) -->
+        <div class="hero__visual" aria-label="Illustrative store sales dashboard" role="img">
+          <div class="dash">
+            <span class="dash__glare" aria-hidden="true"></span>
+
+            <div class="dash__head">
+              <span class="dash__store"><span class="dash__avatar">Y</span>Your store</span>
+              <span class="dash__period mono">Last 30 days</span>
+            </div>
+
+            <div class="dash__metric">
+              <div>
+                <p class="dash__label mono">Total sales</p>
+                <p class="dash__value" data-dash="sales">$48,920</p>
+              </div>
+              <span class="dash__chip"><span aria-hidden="true">↑</span> <span data-dash="growth">18</span>%</span>
+            </div>
+
+            <div class="dash__chart">
+              <svg viewBox="0 0 600 260" preserveAspectRatio="none" aria-hidden="true">
+                <defs>
+                  <linearGradient id="dashArea" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#ecebe4" stop-opacity=".12" />
+                    <stop offset="45%" stop-color="#ecebe4" stop-opacity=".04" />
+                    <stop offset="85%" stop-color="#ecebe4" stop-opacity="0" />
+                  </linearGradient>
+                </defs>
+                <g class="dash__grid">
+                  <line x1="0" y1="20" x2="600" y2="20" /><line x1="0" y1="80" x2="600" y2="80" />
+                  <line x1="0" y1="140" x2="600" y2="140" /><line x1="0" y1="200" x2="600" y2="200" />
+                </g>
+                <path class="dash__area" d="" fill="url(#dashArea)" />
+                <path class="dash__line" d="" />
+                <line class="dash__cross" x1="0" y1="0" x2="0" y2="260" />
+                <circle class="dash__hover-dot" r="5" cx="0" cy="0" />
+                <circle class="dash__end-pulse" r="6" cx="0" cy="0" />
+                <circle class="dash__end" r="5" cx="0" cy="0" />
+              </svg>
+              <div class="dash__tip mono" aria-hidden="true"><b>Day 18</b><span>$3,240</span></div>
+              <div class="dash__axis mono" aria-hidden="true"><span>Day 1</span><span>Day 10</span><span>Day 20</span><span>Day 30</span></div>
+            </div>
+
+            <div class="dash__stats">
+              <div><p class="dash__label mono">Orders</p><p data-dash="orders">612</p></div>
+              <div><p class="dash__label mono">Conversion</p><p data-dash="conv">2.1%</p></div>
+              <div><p class="dash__label mono">Avg. order</p><p data-dash="aov">$79</p></div>
+            </div>
+            <p class="dash__note mono">Sample dashboard</p>
+          </div>
+
+          <div class="dash-chip dash-chip--order" aria-hidden="true">
+            <span class="dash-chip__icon"><svg viewBox="0 0 24 24"><path d="M6 8h12l-1 12H7L6 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg></span>
+            <span><b>New order</b><small data-dash="order">+$129.00</small></span>
+          </div>
+          <div class="dash-chip dash-chip--conv" aria-hidden="true">
+            <span class="live-dot"></span>
+            <span><b>Conversion</b><small>↑ <span data-dash="conv2">2.1</span>%</small></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <section class="marquee" data-theme="dark" aria-label="Skills">
+      <div class="marquee__inner">
+        <div class="marquee__row" data-dir="-1">
+          <div class="marquee__track">
+            <span>Web Development</span><i>✦</i><span>Shopify</span><i>✦</i><span>WordPress</span><i>✦</i>
+            <span>eCommerce</span><i>✦</i><span>Responsive Design</span><i>✦</i><span>Custom Themes</span><i>✦</i>
+          </div>
+        </div>
+        <div class="marquee__row marquee__row--outline" data-dir="1">
+          <div class="marquee__track">
+            <span>JavaScript</span><i>✦</i><span>HTML &amp; CSS</span><i>✦</i><span>PHP</span><i>✦</i><span>Python</span><i>✦</i>
+            <span>Node.js</span><i>✦</i><span>Figma</span><i>✦</i><span>SEO</span><i>✦</i><span>A/B Testing</span><i>✦</i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about section" id="about" data-theme="light">
+      <p class="label">(01) — About</p>
+
+      <div class="about__grid">
+        <figure class="about__media" data-cursor-label="That's me">
+          <img src="assets/Kier-Viray.jpg" alt="Portrait of Kier Paolo Viray" width="288" height="288" data-parallax />
+          <figcaption>Pampanga, Philippines</figcaption>
+        </figure>
+
+        <div class="about__text">
+          <p class="about__statement" data-words>
+            Hi, I'm Kier — a Shopify developer who turns business goals into storefronts people actually enjoy shopping.
+            From custom Liquid sections to 5,000+ product migrations and app integrations, I care about the details
+            that move the numbers.
+          </p>
+          <p data-reveal>
+            I'm a Shopify Developer and eCommerce Specialist with hands-on experience in custom storefront
+            development, theme customization, product data management and third-party integrations — working
+            remotely with teams in the United Kingdom and Australia.
+          </p>
+          <p data-reveal>
+            My toolkit spans Shopify Liquid, JavaScript, HTML, CSS, Shopify Markets and Online Store 2.0. I've
+            managed large catalog work with Matrixify — metafields, metaobjects, variants, collections and tags —
+            and I'm also exploring simple workflow automation with Make.
+          </p>
+          <div class="about__edu" data-reveal>
+            <span class="mono">Education</span>
+            <p><strong>BS Information Technology</strong><br />Bulacan Agricultural State College · 2020–2024</p>
+          </div>
+          <div class="about__ctas" data-reveal>
+            <a href="assets/KierPaolo_Viray_Resume.pdf" class="btn btn--primary" download data-magnetic>
+              <span class="btn__fill"></span>
+              <span class="btn__label">Download CV</span>
+              <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 4v12M6 11l6 6 6-6M5 20h14"/></svg></span>
+            </a>
+            <a href="#experience" class="link-arrow">My experience <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="stat" data-reveal>
+          <span class="stat__num"><span data-count="5000">5,000</span>+</span>
+          <span class="stat__label">Products migrated with Matrixify</span>
+        </div>
+        <div class="stat" data-reveal>
+          <span class="stat__num"><span data-count="3">3</span>+</span>
+          <span class="stat__label">Years of web development experience</span>
+        </div>
+        <div class="stat" data-reveal>
+          <span class="stat__num"><span data-count="20">20</span>+</span>
+          <span class="stat__label">Websites &amp; online stores built and managed</span>
+        </div>
+        <div class="stat" data-reveal>
+          <span class="stat__num"><span data-count="2">2</span></span>
+          <span class="stat__label">Countries served remotely — UK &amp; AU</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="services section" id="services" data-theme="dark">
+      <div class="section__head">
+        <div>
+          <p class="label">(02) — Services</p>
+          <h2 class="title" data-split>What I <em>do</em></h2>
+        </div>
+        <p class="section__lede" data-reveal>End-to-end Shopify work — from the theme your customers see to the data and integrations behind it.</p>
+      </div>
+
+      <ul class="svc" role="list">
+        <li class="svc__row" data-index="0">
+          <span class="svc__fill" aria-hidden="true"></span>
+          <span class="svc__num">01</span>
+          <h3 class="svc__title">Custom Shopify Themes</h3>
+          <p class="svc__tags">Liquid · OS 2.0 · Sections · Templates · Shopify CLI</p>
+          <span class="svc__arrow" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+        </li>
+        <li class="svc__row" data-index="1">
+          <span class="svc__fill" aria-hidden="true"></span>
+          <span class="svc__num">02</span>
+          <h3 class="svc__title">Catalog &amp; Data Migration</h3>
+          <p class="svc__tags">Matrixify · Metafields · Metaobjects · Variants</p>
+          <span class="svc__arrow" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+        </li>
+        <li class="svc__row" data-index="2">
+          <span class="svc__fill" aria-hidden="true"></span>
+          <span class="svc__num">03</span>
+          <h3 class="svc__title">Apps &amp; Integrations</h3>
+          <p class="svc__tags">Shopify API · Klaviyo · Subscriptions · Third-party apps</p>
+          <span class="svc__arrow" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+        </li>
+        <li class="svc__row" data-index="3">
+          <span class="svc__fill" aria-hidden="true"></span>
+          <span class="svc__num">04</span>
+          <h3 class="svc__title">WordPress Websites</h3>
+          <p class="svc__tags">WordPress · Elementor · Responsive design · SEO</p>
+          <span class="svc__arrow" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+        </li>
+        <li class="svc__row" data-index="4">
+          <span class="svc__fill" aria-hidden="true"></span>
+          <span class="svc__num">05</span>
+          <h3 class="svc__title">CRO &amp; Tracking</h3>
+          <p class="svc__tags">A/B tests · Intelligems · Convert · Meta Pixel · SEO</p>
+          <span class="svc__arrow" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+        </li>
+        <li class="svc__row" data-index="5">
+          <span class="svc__fill" aria-hidden="true"></span>
+          <span class="svc__num">06</span>
+          <h3 class="svc__title">Workflow Automation</h3>
+          <p class="svc__tags">Make · GitHub changelogs · Google Docs · Lovable</p>
+          <span class="svc__arrow" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+        </li>
+      </ul>
+
+      <!-- Floating tool-stack preview that follows the cursor over the list (logos: Simple Icons, CC0) -->
+      <div class="svc-preview" aria-hidden="true">
+        <div class="svc-preview__inner">
+          <div class="svc-panel">
+            <p class="svc-panel__head"><span>01 — Themes</span><span>Stack</span></p>
+            <div class="svc-panel__grid" data-items="4">
+              <span class="svc-logo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.337 23.979l7.216-1.561s-2.604-17.613-2.625-17.73c-.018-.116-.114-.192-.211-.192s-1.929-.136-1.929-.136-1.275-1.274-1.439-1.411c-.045-.037-.075-.057-.121-.074l-.914 21.104h.023zM11.71 11.305s-.81-.424-1.774-.424c-1.447 0-1.504.906-1.504 1.141 0 1.232 3.24 1.715 3.24 4.629 0 2.295-1.44 3.76-3.406 3.76-2.354 0-3.54-1.465-3.54-1.465l.646-2.086s1.245 1.066 2.28 1.066c.675 0 .975-.545.975-.932 0-1.619-2.654-1.694-2.654-4.359-.034-2.237 1.571-4.416 4.827-4.416 1.257 0 1.875.361 1.875.361l-.945 2.715-.02.01zM11.17.83c.136 0 .271.038.405.135-.984.465-2.064 1.639-2.508 3.992-.656.213-1.293.405-1.889.578C7.697 3.75 8.951.84 11.17.84V.83zm1.235 2.949v.135c-.754.232-1.583.484-2.394.736.466-1.777 1.333-2.645 2.085-2.971.193.501.309 1.176.309 2.1zm.539-2.234c.694.074 1.141.867 1.429 1.755-.349.114-.735.231-1.158.366v-.252c0-.752-.096-1.371-.271-1.871v.002zm2.992 1.289c-.02 0-.06.021-.078.021s-.289.075-.714.21c-.423-1.233-1.176-2.37-2.508-2.37h-.115C12.135.209 11.669 0 11.265 0 8.159 0 6.675 3.877 6.21 5.846c-1.194.365-2.063.636-2.16.674-.675.213-.694.232-.772.87-.075.462-1.83 14.063-1.83 14.063L15.009 24l.927-21.166z"/></svg><span>Shopify</span></span>
+              <span class="svc-logo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/></svg><span>HTML5</span></span>
+              <span class="svc-logo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"/></svg><span>CSS3</span></span>
+              <span class="svc-logo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"/></svg><span>JavaScript</span></span>
+            </div>
+          </div>
+          <div class="svc-panel">
+            <p class="svc-panel__head"><span>02 — Migration</span><span>Stack</span></p>
+            <div class="svc-panel__grid" data-items="2">
+              <span class="svc-logo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.337 23.979l7.216-1.561s-2.604-17.613-2.625-17.73c-.018-.116-.114-.192-.211-.192s-1.929-.136-1.929-.136-1.275-1.274-1.439-1.411c-.045-.037-.075-.057-.121-.074l-.914 21.104h.023zM11.71 11.305s-.81-.424-1.774-.424c-1.447 0-1.504.906-1.504 1.141 0 1.232 3.24 1.715 3.24 4.629 0 2.295-1.44 3.76-3.406 3.76-2.354 0-3.54-1.465-3.54-1.465l.646-2.086s1.245 1.066 2.28 1.066c.675 0 .975-.545.975-.932 0-1.619-2.654-1.694-2.654-4.359-.034-2.237 1.571-4.416 4.827-4.416 1.257 0 1.875.361 1.875.361l-.945 2.715-.02.01zM11.17.83c.136 0 .271.038.405.135-.984.465-2.064 1.639-2.508 3.992-.656.213-1.293.405-1.889.578C7.697 3.75 8.951.84 11.17.84V.83zm1.235 2.949v.135c-.754.232-1.583.484-2.394.736.466-1.777 1.333-2.645 2.085-2.971.193.501.309 1.176.309 2.1zm.539-2.234c.694.074 1.141.867 1.429 1.755-.349.114-.735.231-1.158.366v-.252c0-.752-.096-1.371-.271-1.871v.002zm2.992 1.289c-.02 0-.06.021-.078.021s-.289.075-.714.21c-.423-1.233-1.176-2.37-2.508-2.37h-.115C12.135.209 11.669 0 11.265 0 8.159 0 6.675 3.877 6.21 5.846c-1.194.365-2.063.636-2.16.674-.675.213-.694.232-.772.87-.075.462-1.83 14.063-1.83 14.063L15.009 24l.927-21.166z"/></svg><span>Shopify</span></span>
+              <span class="svc-logo svc-logo--word"><b>Matrixify</b><span>Matrixify</span></span>
+            </div>
+          </div>
+          <div class="svc-panel">
+            <p class="svc-panel__head"><span>03 — Integrations</span><span>Stack</span></p>
+            <div class="svc-panel__grid" data-items="2">
+              <span class="svc-logo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.337 23.979l7.216-1.561s-2.604-17.613-2.625-17.73c-.018-.116-.114-.192-.211-.192s-1.929-.136-1.929-.136-1.275-1.274-1.439-1.411c-.045-.037-.075-.057-.121-.074l-.914 21.104h.023zM11.71 11.305s-.81-.424-1.774-.424c-1.447 0-1.504.906-1.504 1.141 0 1.232 3.24 1.715 3.24 4.629 0 2.295-1.44 3.76-3.406 3.76-2.354 0-3.54-1.465-3.54-1.465l.646-2.086s1.245 1.066 2.28 1.066c.675 0 .975-.545.975-.932 0-1.619-2.654-1.694-2.654-4.359-.034-2.237 1.571-4.416 4.827-4.416 1.257 0 1.875.361 1.875.361l-.945 2.715-.02.01zM11.17.83c.136 0 .271.038.405.135-.984.465-2.064 1.639-2.508 3.992-.656.213-1.293.405-1.889.578C7.697 3.75 8.951.84 11.17.84V.83zm1.235 2.949v.135c-.754.232-1.583.484-2.394.736.466-1.777 1.333-2.645 2.085-2.971.193.501.309 1.176.309 2.1zm.539-2.234c.694.074 1.141.867 1.429 1.755-.349.114-.735.231-1.158.366v-.252c0-.752-.096-1.371-.271-1.871v.002zm2.992 1.289c-.02 0-.06.021-.078.021s-.289.075-.714.21c-.423-1.233-1.176-2.37-2.508-2.37h-.115C12.135.209 11.669 0 11.265 0 8.159 0 6.675 3.877 6.21 5.846c-1.194.365-2.063.636-2.16.674-.675.213-.694.232-.772.87-.075.462-1.83 14.063-1.83 14.063L15.009 24l.927-21.166z"/></svg><span>Shopify API</span></span>
+              <span class="svc-logo svc-logo--word"><b>Klaviyo</b><span>Klaviyo</span></span>
+            </div>
+          </div>
+          <div class="svc-panel">
+            <p class="svc-panel__head"><span>04 — WordPress</span><span>Stack</span></p>
+            <div class="svc-panel__grid" data-items="4">
+              <span class="svc-logo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.469 6.825c.84 1.537 1.318 3.3 1.318 5.175 0 3.979-2.156 7.456-5.363 9.325l3.295-9.527c.615-1.54.82-2.771.82-3.864 0-.405-.026-.78-.07-1.11m-7.981.105c.647-.03 1.232-.105 1.232-.105.582-.075.514-.93-.067-.899 0 0-1.755.135-2.88.135-1.064 0-2.85-.15-2.85-.15-.585-.03-.661.855-.075.885 0 0 .54.061 1.125.09l1.68 4.605-2.37 7.08L5.354 6.9c.649-.03 1.234-.1 1.234-.1.585-.075.516-.93-.065-.896 0 0-1.746.138-2.874.138-.2 0-.438-.008-.69-.015C4.911 3.15 8.235 1.215 12 1.215c2.809 0 5.365 1.072 7.286 2.833-.046-.003-.091-.009-.141-.009-1.06 0-1.812.923-1.812 1.914 0 .89.513 1.643 1.06 2.531.411.72.89 1.643.89 2.977 0 .915-.354 1.994-.821 3.479l-1.075 3.585-3.9-11.61.001.014zM12 22.784c-1.059 0-2.081-.153-3.048-.437l3.237-9.406 3.315 9.087c.024.053.05.101.078.149-1.12.393-2.325.609-3.582.609M1.211 12c0-1.564.336-3.05.935-4.39L7.29 21.709C3.694 19.96 1.212 16.271 1.211 12M12 0C5.385 0 0 5.385 0 12s5.385 12 12 12 12-5.385 12-12S18.615 0 12 0"/></svg><span>WordPress</span></span>
+              <span class="svc-logo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.372 0 0 5.372 0 12c0 6.626 5.372 12 12 12s12-5.372 12-12c0-6.626-5.372-12-12-12ZM9 17H7V7H9Zm8 0H11V15h6Zm0-4H11V11h6Zm0-4H11V7h6Z"/></svg><span>Elementor</span></span>
+              <span class="svc-logo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.01 10.207h-.944l-.515 2.648h.838c.556 0 .97-.105 1.242-.314.272-.21.455-.559.55-1.049.092-.47.05-.802-.124-.995-.175-.193-.523-.29-1.047-.29zM12 5.688C5.373 5.688 0 8.514 0 12s5.373 6.313 12 6.313S24 15.486 24 12c0-3.486-5.373-6.312-12-6.312zm-3.26 7.451c-.261.25-.575.438-.917.551-.336.108-.765.164-1.285.164H5.357l-.327 1.681H3.652l1.23-6.326h2.65c.797 0 1.378.209 1.744.628.366.418.476 1.002.33 1.752a2.836 2.836 0 0 1-.305.847c-.143.255-.33.49-.561.703zm4.024.715l.543-2.799c.063-.318.039-.536-.068-.651-.107-.116-.336-.174-.687-.174H11.46l-.704 3.625H9.388l1.23-6.327h1.367l-.327 1.682h1.218c.767 0 1.295.134 1.586.401s.378.7.263 1.299l-.572 2.944h-1.389zm7.597-2.265a2.782 2.782 0 0 1-.305.847c-.143.255-.33.49-.561.703a2.44 2.44 0 0 1-.917.551c-.336.108-.765.164-1.286.164h-1.18l-.327 1.682h-1.378l1.23-6.326h2.649c.797 0 1.378.209 1.744.628.366.417.477 1.001.331 1.751zM17.766 10.207h-.943l-.516 2.648h.838c.557 0 .971-.105 1.242-.314.272-.21.455-.559.551-1.049.092-.47.049-.802-.125-.995s-.524-.29-1.047-.29z"/></svg><span>PHP</span></span>
+              <span class="svc-logo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zM12.735 7.51h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.02 3.019 3.02h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117V8.981H8.148zM8.172 24c-2.489 0-4.515-2.014-4.515-4.49s2.014-4.49 4.49-4.49h4.588v4.441c0 2.503-2.047 4.539-4.563 4.539zm-.024-7.51a3.023 3.023 0 0 0-3.019 3.019c0 1.665 1.365 3.019 3.044 3.019 1.705 0 3.093-1.376 3.093-3.068v-2.97H8.148zm7.704 0h-.098c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h.098c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49zm-.097-7.509c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h.098c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-.098z"/></svg><span>Figma</span></span>
+            </div>
+          </div>
+          <div class="svc-panel">
+            <p class="svc-panel__head"><span>05 — CRO</span><span>Stack</span></p>
+            <div class="svc-panel__grid" data-items="4">
+              <span class="svc-logo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.915 4.03c-1.968 0-3.683 1.28-4.871 3.113C.704 9.208 0 11.883 0 14.449c0 .706.07 1.369.21 1.973a6.624 6.624 0 0 0 .265.86 5.297 5.297 0 0 0 .371.761c.696 1.159 1.818 1.927 3.593 1.927 1.497 0 2.633-.671 3.965-2.444.76-1.012 1.144-1.626 2.663-4.32l.756-1.339.186-.325c.061.1.121.196.183.3l2.152 3.595c.724 1.21 1.665 2.556 2.47 3.314 1.046.987 1.992 1.22 3.06 1.22 1.075 0 1.876-.355 2.455-.843a3.743 3.743 0 0 0 .81-.973c.542-.939.861-2.127.861-3.745 0-2.72-.681-5.357-2.084-7.45-1.282-1.912-2.957-2.93-4.716-2.93-1.047 0-2.088.467-3.053 1.308-.652.57-1.257 1.29-1.82 2.05-.69-.875-1.335-1.547-1.958-2.056-1.182-.966-2.315-1.303-3.454-1.303zm10.16 2.053c1.147 0 2.188.758 2.992 1.999 1.132 1.748 1.647 4.195 1.647 6.4 0 1.548-.368 2.9-1.839 2.9-.58 0-1.027-.23-1.664-1.004-.496-.601-1.343-1.878-2.832-4.358l-.617-1.028a44.908 44.908 0 0 0-1.255-1.98c.07-.109.141-.224.211-.327 1.12-1.667 2.118-2.602 3.358-2.602zm-10.201.553c1.265 0 2.058.791 2.675 1.446.307.327.737.871 1.234 1.579l-1.02 1.566c-.757 1.163-1.882 3.017-2.837 4.338-1.191 1.649-1.81 1.817-2.486 1.817-.524 0-1.038-.237-1.383-.794-.263-.426-.464-1.13-.464-2.046 0-2.221.63-4.535 1.66-6.088.454-.687.964-1.226 1.533-1.533a2.264 2.264 0 0 1 1.088-.285z"/></svg><span>Meta Pixel</span></span>
+              <span class="svc-logo svc-logo--word"><b>Intelligems</b><span>Intelligems</span></span>
+              <span class="svc-logo svc-logo--word"><b>Convert</b><span>Convert</span></span>
+              <span class="svc-logo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.337 23.979l7.216-1.561s-2.604-17.613-2.625-17.73c-.018-.116-.114-.192-.211-.192s-1.929-.136-1.929-.136-1.275-1.274-1.439-1.411c-.045-.037-.075-.057-.121-.074l-.914 21.104h.023zM11.71 11.305s-.81-.424-1.774-.424c-1.447 0-1.504.906-1.504 1.141 0 1.232 3.24 1.715 3.24 4.629 0 2.295-1.44 3.76-3.406 3.76-2.354 0-3.54-1.465-3.54-1.465l.646-2.086s1.245 1.066 2.28 1.066c.675 0 .975-.545.975-.932 0-1.619-2.654-1.694-2.654-4.359-.034-2.237 1.571-4.416 4.827-4.416 1.257 0 1.875.361 1.875.361l-.945 2.715-.02.01zM11.17.83c.136 0 .271.038.405.135-.984.465-2.064 1.639-2.508 3.992-.656.213-1.293.405-1.889.578C7.697 3.75 8.951.84 11.17.84V.83zm1.235 2.949v.135c-.754.232-1.583.484-2.394.736.466-1.777 1.333-2.645 2.085-2.971.193.501.309 1.176.309 2.1zm.539-2.234c.694.074 1.141.867 1.429 1.755-.349.114-.735.231-1.158.366v-.252c0-.752-.096-1.371-.271-1.871v.002zm2.992 1.289c-.02 0-.06.021-.078.021s-.289.075-.714.21c-.423-1.233-1.176-2.37-2.508-2.37h-.115C12.135.209 11.669 0 11.265 0 8.159 0 6.675 3.877 6.21 5.846c-1.194.365-2.063.636-2.16.674-.675.213-.694.232-.772.87-.075.462-1.83 14.063-1.83 14.063L15.009 24l.927-21.166z"/></svg><span>Analytics</span></span>
+            </div>
+          </div>
+          <div class="svc-panel">
+            <p class="svc-panel__head"><span>06 — Automation</span><span>Stack</span></p>
+            <div class="svc-panel__grid" data-items="4">
+              <span class="svc-logo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.38 3.498c-.27 0-.511.19-.566.465L9.85 18.986a.578.578 0 0 0 .453.678l4.095.826a.58.58 0 0 0 .682-.455l2.963-15.021a.578.578 0 0 0-.453-.678l-4.096-.826a.589.589 0 0 0-.113-.012zm-5.876.098a.576.576 0 0 0-.516.318L.062 17.697a.575.575 0 0 0 .256.774l3.733 1.877a.578.578 0 0 0 .775-.258l6.926-13.781a.577.577 0 0 0-.256-.776L7.762 3.658a.571.571 0 0 0-.258-.062zm11.74.115a.576.576 0 0 0-.576.576v15.426c0 .318.258.578.576.578h4.178a.58.58 0 0 0 .578-.578V4.287a.578.578 0 0 0-.578-.576Z"/></svg><span>Make</span></span>
+              <span class="svc-logo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg><span>GitHub</span></span>
+              <span class="svc-logo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.727 6.727H14V0H4.91c-.905 0-1.637.732-1.637 1.636v20.728c0 .904.732 1.636 1.636 1.636h14.182c.904 0 1.636-.732 1.636-1.636V6.727h-6zm-.545 10.455H7.09v-1.364h7.09v1.364zm2.727-3.273H7.091v-1.364h9.818v1.364zm0-3.273H7.091V9.273h9.818v1.363zM14.727 6h6l-6-6v6z"/></svg><span>Google Docs</span></span>
+              <span class="svc-logo svc-logo--word"><b>Lovable</b><span>Lovable</span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WORK (horizontal) ============ -->
+    <section class="work" id="work" data-theme="dark">
+      <div class="work__track">
+        <div class="work__intro">
+          <p class="label">(03) — Selected work</p>
+          <h2 class="title title--xl" data-split>Stores I've <em>shaped</em></h2>
+          <p class="section__lede">Client storefronts I've built, customised and connected — scroll to browse.</p>
+          <span class="work__hint mono" aria-hidden="true">Scroll <span>→</span></span>
+        </div>
+        <article class="project">
+          <a class="project__media" href="https://roadarmor.com/" target="_blank" rel="noopener" data-cursor-label="Visit ↗">
+            <img src="assets/web/road-armor.jpg" alt="Road Armor storefront homepage — Interactive Garage" width="1600" height="771" loading="lazy" />
+            <span class="project__index">01</span>
+          </a>
+          <div class="project__body">
+            <div class="project__head">
+              <h3 class="project__name">Road Armor</h3>
+              <span class="mono project__where">Shopify · Automotive</span>
+            </div>
+            <ul class="chips" role="list"><li>5,000+ products</li><li>Matrixify</li><li>Garage app</li><li>SEO</li></ul>
+            <p class="project__desc">Theme functionality in Liquid &amp; JS, a 5,000+ product migration with metafields, an interactive garage app for product discovery, plus search &amp; SEO work including CMAX.</p>
+            <a class="link-arrow" href="https://roadarmor.com/" target="_blank" rel="noopener">roadarmor.com <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+
+        <article class="project">
+          <a class="project__media" href="https://www.lightmybricks.com/" target="_blank" rel="noopener" data-cursor-label="Visit ↗">
+            <img src="assets/web/light-my-bricks.jpg" alt="Light My Bricks storefront homepage — lighting kits for LEGO" width="1600" height="739" loading="lazy" />
+            <span class="project__index">02</span>
+          </a>
+          <div class="project__body">
+            <div class="project__head">
+              <h3 class="project__name">Light My Bricks</h3>
+              <span class="mono project__where">Shopify · Australia</span>
+            </div>
+            <ul class="chips" role="list"><li>Liquid</li><li>Custom sections</li><li>Klaviyo</li><li>Metaobjects</li></ul>
+            <p class="project__desc">Custom storefront with reusable sections and product templates, Klaviyo integration, structured metafield &amp; metaobject content and a fully responsive experience.</p>
+            <a class="link-arrow" href="https://www.lightmybricks.com/" target="_blank" rel="noopener">lightmybricks.com <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        <article class="project">
+          <a class="project__media" href="https://www.cacaocollective.com.au/" target="_blank" rel="noopener" data-cursor-label="Visit ↗">
+            <img src="assets/web/cacao-collective.jpg" alt="Cacao Collective storefront homepage" width="1600" height="768" loading="lazy" />
+            <span class="project__index">03</span>
+          </a>
+          <div class="project__body">
+            <div class="project__head">
+              <h3 class="project__name">Cacao Collective</h3>
+              <span class="mono project__where">Shopify · Australia</span>
+            </div>
+            <ul class="chips" role="list"><li>Subscriptions</li><li>Metafields</li><li>Animations</li><li>Mobile UX</li></ul>
+            <p class="project__desc">Storefront with custom templates and sections, an integrated subscription app, structured product content, custom animations and optimised mobile layouts.</p>
+            <a class="link-arrow" href="https://www.cacaocollective.com.au/" target="_blank" rel="noopener">cacaocollective.com.au <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+
+        <article class="project">
+          <a class="project__media" href="https://bktnanoplasty.com/" target="_blank" rel="noopener" data-cursor-label="Visit ↗">
+            <img src="assets/web/bkt.jpg" alt="Beauty Keeps Transforming storefront homepage — nanoplasty salon" width="1600" height="741" loading="lazy" />
+            <span class="project__index">04</span>
+          </a>
+          <div class="project__body">
+            <div class="project__head">
+              <h3 class="project__name">Beauty Keeps Transforming</h3>
+              <span class="mono project__where">Shopify · Australia</span>
+            </div>
+            <ul class="chips" role="list"><li>Custom theme</li><li>Wholesale</li><li>Third-party apps</li><li>Bookings</li></ul>
+            <p class="project__desc">Customised Shopify theme for Australia's first nanoplasty-only salon. Set up wholesale for BKT Pro stockists, connected third-party apps for bookings and appointments, and refined collections, product pages and the mobile shopping experience.</p>
+            <a class="link-arrow" href="https://bktnanoplasty.com/" target="_blank" rel="noopener">bktnanoplasty.com <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+
+        <div class="work__end">
+          <h3 class="title">Your store<br />could be <em>next.</em></h3>
+          <a href="#contact" class="circle-cta circle-cta--sm" data-magnetic="0.45" data-cursor-hide data-planner>
+            <span class="btn__fill"></span>
+            <span class="circle-cta__label">Let's<br />build it</span>
+          </a>
+        </div>
+      </div>
+      <div class="work__progress" aria-hidden="true"><span></span></div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="xp section" id="experience" data-theme="light">
+      <div class="xp__wrap">
+        <aside class="xp__side">
+          <p class="label">(04) — Experience</p>
+          <h2 class="title" data-split>Where I've <em>worked</em></h2>
+          <p class="section__lede" data-reveal>From a college internship to two years of remote Shopify work across the UK and Australia. Tap a role to expand it.</p>
+          <a href="assets/KierPaolo_Viray_Resume.pdf" class="btn btn--ghost" target="_blank" rel="noopener" data-magnetic data-reveal>
+            <span class="btn__fill"></span>
+            <span class="btn__label">View full résumé</span>
+            <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+          </a>
+        </aside>
+
+        <div class="xp__list">
+          <div class="xp__line" aria-hidden="true"><span></span></div>
+
+          <article class="xp__item is-open">
+            <button class="xp__head" aria-expanded="true">
+              <span class="xp__date mono">Dec 2025 — Nov 2026</span>
+              <span class="xp__role">
+                <strong>Shopify Developer &amp; eCommerce Specialist</strong>
+                <small>Full-time · Remote — United Kingdom</small>
+              </span>
+              <span class="xp__toggle" aria-hidden="true"></span>
+            </button>
+            <div class="xp__body">
+              <ul>
+                <li>Developed and customised Shopify themes, sections, product templates and storefront functionality to meet business requirements and improve UX.</li>
+                <li>Managed store operations — product catalogs, collections, variants, metafields and store configuration.</li>
+                <li>Integrated third-party apps, APIs and Klaviyo to extend store functionality and streamline operations.</li>
+                <li>Helped set up simple workflow automations in Make to reduce repetitive tasks.</li>
+                <li>Shipped CRO improvements through interactive product quizzes, A/B testing and enhanced shopping experiences.</li>
+                <li>Configured Meta Pixel events and tracking to measure key eCommerce activity.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="xp__item">
+            <button class="xp__head" aria-expanded="false">
+              <span class="xp__date mono">Sep 2024 — Dec 2025</span>
+              <span class="xp__role">
+                <strong>Shopify Developer — Freelance</strong>
+                <small>Rivly · Remote — Sydney, Australia</small>
+              </span>
+              <span class="xp__toggle" aria-hidden="true"></span>
+            </button>
+            <div class="xp__body">
+              <ul>
+                <li>Developed and customised storefronts for Light My Bricks, Road Armor and Cacao Collective using Liquid, JavaScript, HTML and CSS.</li>
+                <li>Built custom product templates, reusable sections and dynamic storefront features.</li>
+                <li>Migrated 5,000+ products and associated data, including metafields, using Matrixify.</li>
+                <li>Integrated and customised third-party apps, including subscriptions and interactive garage functionality.</li>
+                <li>Improved performance, mobile responsiveness, SEO and product discovery.</li>
+                <li>Developed interactive UI elements, custom animations and responsive layouts.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="xp__item">
+            <button class="xp__head" aria-expanded="false">
+              <span class="xp__date mono">College internship</span>
+              <span class="xp__role">
+                <strong>Web Developer Intern</strong>
+                <small>iPhiTech IT and Digital Solutions</small>
+              </span>
+              <span class="xp__toggle" aria-hidden="true"></span>
+            </button>
+            <div class="xp__body">
+              <ul>
+                <li>Completed my college internship at iPhiTech IT and Digital Solutions, focusing on WordPress, Shopify and web development.</li>
+                <li>Built and customised websites on WordPress and Shopify — my first hands-on experience with the platforms I now specialise in.</li>
+                <li>Strengthened my foundations in HTML, CSS and JavaScript while working on real web projects.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="xp__item">
+            <button class="xp__head" aria-expanded="false">
+              <span class="xp__date mono">2020 — 2024</span>
+              <span class="xp__role">
+                <strong>BS Information Technology</strong>
+                <small>Bulacan Agricultural State College</small>
+              </span>
+              <span class="xp__toggle" aria-hidden="true"></span>
+            </button>
+            <div class="xp__body">
+              <ul>
+                <li>Bachelor of Science in Information Technology — the foundation for my work across web development, databases and systems.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TOOLBOX ============ -->
+    <section class="tools section" id="toolbox" data-theme="light">
+      <div class="section__head">
+        <div>
+          <p class="label">(05) — Toolbox</p>
+          <h2 class="title" data-split>Tools of the <em>trade</em></h2>
+        </div>
+        <p class="section__lede" data-reveal>The stack I reach for to design, build, ship and measure.</p>
+      </div>
+
+      <div class="tools__grid">
+        <article class="tool">
+          <span class="tool__num mono">01</span>
+          <h3>Shopify Development</h3>
+          <ul class="chips" role="list"><li>Liquid</li><li>Online Store 2.0</li><li>Custom themes</li><li>Sections &amp; templates</li><li>Shopify Markets</li><li>Metafields</li><li>Metaobjects</li><li>Shopify CLI</li></ul>
+        </article>
+        <article class="tool">
+          <span class="tool__num mono">02</span>
+          <h3>Programming &amp; Frontend</h3>
+          <ul class="chips" role="list"><li>JavaScript</li><li>HTML5</li><li>CSS3</li><li>Responsive design</li><li>SQL</li><li>PHP</li><li>Python</li><li>Node.js</li></ul>
+        </article>
+        <article class="tool">
+          <span class="tool__num mono">03</span>
+          <h3>eCommerce &amp; Integrations</h3>
+          <ul class="chips" role="list"><li>Shopify API</li><li>Klaviyo</li><li>Matrixify</li><li>Third-party apps</li><li>Data migration</li><li>Subscriptions</li></ul>
+        </article>
+        <article class="tool">
+          <span class="tool__num mono">04</span>
+          <h3>Currently Exploring</h3>
+          <ul class="chips" role="list"><li>Make</li><li>Lovable</li><li>Workflow automation</li></ul>
+        </article>
+        <article class="tool">
+          <span class="tool__num mono">05</span>
+          <h3>Tracking &amp; Optimization</h3>
+          <ul class="chips" role="list"><li>Meta Pixel</li><li>Lead events</li><li>A/B testing</li><li>Convert.com</li><li>Intelligems</li><li>Shopify Analytics</li><li>Landing pages</li><li>SEO</li></ul>
+        </article>
+        <article class="tool">
+          <span class="tool__num mono">06</span>
+          <h3>Development Tools</h3>
+          <ul class="chips" role="list"><li>Git</li><li>GitHub</li><li>VS Code</li><li>npm</li><li>Figma</li><li>WordPress</li><li>Elementor</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact" data-theme="dark">
+      <p class="label">(06) — Contact</p>
+
+      <h2 class="contact__title" data-split data-weight>
+        <span class="contact__line">Let's build</span>
+        <span class="contact__line contact__line--indent">your Shopify</span>
+        <span class="contact__line">store <em>together.</em></span>
+      </h2>
+
+      <div class="contact__grid">
+        <div class="contact__info">
+          <p class="mono contact__k">Drop me a line</p>
+          <div class="contact__email-row">
+            <a href="mailto:kier.paolotejada@gmail.com" class="contact__email" data-scramble>kier.paolotejada@gmail.com</a>
+            <button class="copy-btn" data-copy="kier.paolotejada@gmail.com" aria-label="Copy email address">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h8"/></svg>
+              <span>Copy</span>
+            </button>
+          </div>
+
+          <div class="contact__meta">
+            <div><span class="mono contact__k">Phone</span><a href="tel:+639560512972" class="roll"><span data-text="+63 956 051 2972">+63 956 051 2972</span></a></div>
+            <div><span class="mono contact__k">Location</span><span>Pampanga, Philippines</span></div>
+            <div><span class="mono contact__k">LinkedIn</span><a href="https://www.linkedin.com/in/kier-paolo-viray-28b4a9319" target="_blank" rel="noopener" class="roll"><span data-text="Kier Paolo Viray ↗">Kier Paolo Viray ↗</span></a></div>
+          </div>
+        </div>
+
+        <div class="contact__cta-wrap">
+          <svg class="contact__ring" viewBox="0 0 300 300" aria-hidden="true">
+            <defs><path id="ctaCircle" d="M150,150 m-128,0 a128,128 0 1,1 256,0 a128,128 0 1,1 -256,0" /></defs>
+            <text><textPath href="#ctaCircle" textLength="798" lengthAdjust="spacing">New stores ✦ Custom themes ✦ Integrations ✦ New stores ✦ Custom themes ✦ Integrations ✦ </textPath></text>
+          </svg>
+          <a href="mailto:kier.paolotejada@gmail.com?subject=New%20project%20inquiry" class="circle-cta" data-magnetic="0.5" data-cursor-hide data-planner>
+            <span class="btn__fill"></span>
+            <span class="circle-cta__label">Start a<br />project
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <p class="contact__bigname" aria-hidden="true">Kier Viray</p>
+
+      <footer class="footer">
+        <span>© 2026 Kier Paolo Viray</span>
+        <span>Local time — <time class="clock">--:--</time> GMT+8</span>
+        <button class="footer__top roll" data-scrollto="0"><span data-text="Back to top ↑">Back to top ↑</span></button>
+      </footer>
+    </section>
+  </main>
+
+  <!-- ============ PROJECT PLANNER (writes a pre-filled email) ============ -->
+  <div class="planner" role="dialog" aria-modal="true" aria-labelledby="planner-q1" hidden>
+    <div class="planner__backdrop" data-planner-close></div>
+    <div class="planner__panel" data-lenis-prevent>
+      <header class="planner__head">
+        <span class="mono">Project planner</span>
+        <span class="planner__count mono"><b>01</b> / 03</span>
+        <button type="button" class="planner__close" data-planner-close aria-label="Close planner">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        </button>
+      </header>
+      <div class="planner__progress" aria-hidden="true"><span></span></div>
+
+      <form class="planner__form" novalidate>
+        <fieldset class="planner__step is-active" data-step="1">
+          <legend class="planner__q" id="planner-q1">What can I help you <em>build?</em></legend>
+          <p class="planner__hint">Pick as many as you like.</p>
+          <div class="planner__opts">
+            <label class="opt"><input type="checkbox" name="services" value="New Shopify store" /><span>New Shopify store</span></label>
+            <label class="opt"><input type="checkbox" name="services" value="Theme customisation" /><span>Theme customisation</span></label>
+            <label class="opt"><input type="checkbox" name="services" value="Store / product migration" /><span>Store migration</span></label>
+            <label class="opt"><input type="checkbox" name="services" value="Apps & integrations" /><span>Apps &amp; integrations</span></label>
+            <label class="opt"><input type="checkbox" name="services" value="Wholesale setup" /><span>Wholesale setup</span></label>
+            <label class="opt"><input type="checkbox" name="services" value="WordPress website" /><span>WordPress website</span></label>
+            <label class="opt"><input type="checkbox" name="services" value="Workflow automation" /><span>Workflow automation</span></label>
+            <label class="opt"><input type="checkbox" name="services" value="CRO & tracking" /><span>CRO &amp; tracking</span></label>
+            <label class="opt"><input type="checkbox" name="services" value="Something else" /><span>Something else</span></label>
+          </div>
+          <p class="planner__error" role="alert"></p>
+        </fieldset>
+
+        <fieldset class="planner__step" data-step="2">
+          <legend class="planner__q">When, and how <em>big?</em></legend>
+          <p class="planner__hint">Rough answers are fine — we'll refine together.</p>
+          <p class="planner__label mono">Timeline</p>
+          <div class="planner__opts">
+            <label class="opt"><input type="radio" name="timeline" value="ASAP" /><span>ASAP</span></label>
+            <label class="opt"><input type="radio" name="timeline" value="Within a month" /><span>Within a month</span></label>
+            <label class="opt"><input type="radio" name="timeline" value="1–3 months" /><span>1–3 months</span></label>
+            <label class="opt"><input type="radio" name="timeline" value="Flexible" /><span>Flexible</span></label>
+          </div>
+          <p class="planner__label mono">Budget (USD)</p>
+          <div class="planner__opts">
+            <label class="opt"><input type="radio" name="budget" value="Under $500" /><span>Under $500</span></label>
+            <label class="opt"><input type="radio" name="budget" value="$500 – $1,500" /><span>$500 – $1.5k</span></label>
+            <label class="opt"><input type="radio" name="budget" value="$1,500 – $5,000" /><span>$1.5k – $5k</span></label>
+            <label class="opt"><input type="radio" name="budget" value="$5,000+" /><span>$5k+</span></label>
+            <label class="opt"><input type="radio" name="budget" value="Not sure yet" /><span>Not sure yet</span></label>
+          </div>
+        </fieldset>
+
+        <fieldset class="planner__step" data-step="3">
+          <legend class="planner__q">Tell me about <em>you.</em></legend>
+          <p class="planner__hint">This goes straight into your email — nothing is stored.</p>
+          <div class="planner__fields">
+            <label class="field"><span class="mono">Name *</span><input type="text" name="name" autocomplete="name" required /></label>
+            <label class="field"><span class="mono">Email *</span><input type="email" name="email" autocomplete="email" required /></label>
+            <label class="field field--full"><span class="mono">Store URL (optional)</span><input type="text" name="store" placeholder="yourstore.com" /></label>
+            <label class="field field--full"><span class="mono">Anything else?</span><textarea name="message" rows="3" placeholder="Goals, links, deadlines…"></textarea></label>
+          </div>
+          <p class="planner__error" role="alert"></p>
+        </fieldset>
+
+        <div class="planner__step planner__done" data-step="4">
+          <p class="planner__q">Your brief is <em>ready.</em></p>
+          <p class="planner__hint">Your email app should have opened with everything filled in — just press send. If it didn't, copy the brief and email it to <a href="mailto:kier.paolotejada@gmail.com">kier.paolotejada@gmail.com</a>.</p>
+          <div class="planner__done-ctas">
+            <button type="button" class="btn btn--primary" data-planner-copy>
+              <span class="btn__fill"></span><span class="btn__label">Copy brief</span>
+            </button>
+            <a class="btn btn--ghost" data-planner-mail href="mailto:kier.paolotejada@gmail.com">
+              <span class="btn__fill"></span><span class="btn__label">Open email again</span>
+            </a>
+          </div>
+        </div>
+
+        <footer class="planner__nav">
+          <button type="button" class="planner__back roll" data-planner-back><span data-text="← Back">← Back</span></button>
+          <button type="submit" class="btn btn--primary planner__next" data-magnetic="0.2">
+            <span class="btn__fill"></span>
+            <span class="btn__label">Next</span>
+            <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </button>
+        </footer>
+      </form>
+    </div>
+  </div>
+
+  <!-- Floating CTA -->
+  <a href="#contact" class="float-cta" data-magnetic="0.3" data-grow>
+    <span class="live-dot"></span>
+    <span>Hire me</span>
+  </a>
+
+  <!-- Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
